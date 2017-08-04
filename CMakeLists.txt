@@ -13,9 +13,13 @@ find_package(GTest)
 
 set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_VERBOSE_MAKEFILE OFF)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O3 -std=c++11 -fPIC")
 
 set(SRCS
     07_QueueWithTwoStacks.cpp
+    08_MinNumberInRotatedArray.cpp
+    09_Fibonacci.cpp
+    10_NumberOf1InBinary.cpp
     11_Power.cpp
 )
 

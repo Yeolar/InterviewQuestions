@@ -39,9 +39,9 @@ double powerWithUnsignedExponent(double base, unsigned int exponent) {
 #endif
 
 double power(double base, int exponent) {
-  if (base > -FLT_MIN && base < FLT_MIN && exponent < 0)
+  if (base > -FLT_MIN && base < FLT_MIN && exponent < 0) {
     throw std::invalid_argument("Invalid arguments");
-
+  }
   int absExponent = exponent > 0 ? exponent : -exponent;
   double result = powerWithUnsignedExponent(base, absExponent);
   if (exponent < 0) {
