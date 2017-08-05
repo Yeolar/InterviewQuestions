@@ -20,6 +20,7 @@ set(SRCS
     03_FindInPartiallySortedMatrix.cpp
     04_ReplaceBlank.cpp
     05_PrintListInReversedOrder.cpp
+    06_ConstructBinaryTree.cpp
     07_QueueWithTwoStacks.cpp
     08_MinNumberInRotatedArray.cpp
     09_Fibonacci.cpp
