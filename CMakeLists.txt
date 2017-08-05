@@ -16,6 +16,10 @@ set(CMAKE_VERBOSE_MAKEFILE OFF)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O3 -std=c++11 -fPIC")
 
 set(SRCS
+    01_AssignmentOperator.cpp
+    03_FindInPartiallySortedMatrix.cpp
+    04_ReplaceBlank.cpp
+    05_PrintListInReversedOrder.cpp
     07_QueueWithTwoStacks.cpp
     08_MinNumberInRotatedArray.cpp
     09_Fibonacci.cpp
