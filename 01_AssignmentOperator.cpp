@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2017, Yeolar
+ *
+ * 赋值运算符
  */
 
 #include <string.h>

@@ -26,6 +26,11 @@ set(SRCS
     09_Fibonacci.cpp
     10_NumberOf1InBinary.cpp
     11_Power.cpp
+    12_Print1ToMaxOfNDigits.cpp
+    13_DeleteNodeInList.cpp
+    14_ReorderArray.cpp
+    15_KthNodeFromEnd.cpp
+    16_ReverseList.cpp
 )
 
 enable_testing()

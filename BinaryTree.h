@@ -8,9 +8,9 @@ namespace ae {
 
 template <class T>
 struct BinaryTreeNode {
+  T value;
   BinaryTreeNode* left;
   BinaryTreeNode* right;
-  T value;
 };
 
 template <class T>
@@ -38,12 +38,8 @@ template <class T>
 void printTree(BinaryTreeNode<T>* node, std::stringstream& out) {
   if (node != nullptr) {
     out << node->value << " ";
-    if (node->left != nullptr) {
-      printTree(node->left, out);
-    }
-    if (node->right != nullptr) {
-      printTree(node->right, out);
-    }
+    printTree(node->left, out);
+    printTree(node->right, out);
   }
 }
 

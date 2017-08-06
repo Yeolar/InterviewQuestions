@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2017, Yeolar
+ *
+ * 从尾到头打印链表
  */
 
 #include <list>

@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2017, Yeolar
  *
- * 求base的exponent次方
+ * 数值的整数次方
  */
 
 #include <float.h>

@@ -1,5 +1,7 @@
 /*
  * Copyright (C) 2017, Yeolar
+ *
+ * 重建二叉树
  */
 
 #include <stdexcept>
