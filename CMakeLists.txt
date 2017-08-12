@@ -31,6 +31,13 @@ set(SRCS
     14_ReorderArray.cpp
     15_KthNodeFromEnd.cpp
     16_ReverseList.cpp
+    17_MergeSortedLists.cpp
+    18_SubstructureInTree.cpp
+    19_MirrorOfBinaryTree.cpp
+    21_MinInStack.cpp
+    22_StackPushPopOrder.cpp
+    23_PrintTreeFromTopToBottom.cpp
+    49_StringToInt.cpp
 )
 
 enable_testing()
