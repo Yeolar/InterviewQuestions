@@ -37,7 +37,12 @@ set(SRCS
     21_MinInStack.cpp
     22_StackPushPopOrder.cpp
     23_PrintTreeFromTopToBottom.cpp
+    38_NumberOfK.cpp
+    39_1_TreeDepth.cpp
+    39_2_BalancedBinaryTree.cpp
+    40_NumbersAppearOnce.cpp
     49_StringToInt.cpp
+    50_CommonParentInTree.cpp
 )
 
 enable_testing()
