@@ -42,9 +42,11 @@ set(SRCS
     28_StringPermutation.cpp
     29_MoreThanHalfNumber.cpp
     30_KLeastNumbers.cpp
+    31_GreatestSumOfSubarrays.cpp
 
     35_FirstNotRepeatingChar.cpp
 
+    37_FirstCommonNodesInLists.cpp
     38_NumberOfK.cpp
     39_1_TreeDepth.cpp
     39_2_BalancedBinaryTree.cpp
